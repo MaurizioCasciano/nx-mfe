@@ -2,7 +2,9 @@
   "name": "@nx-mfe/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:dev": "nx serve host --open --devRemotes=products,cart"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~16.2.0",

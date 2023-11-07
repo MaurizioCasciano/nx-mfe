@@ -4,6 +4,7 @@
   "projectType": "application",
   "prefix": "nx-mfe",
   "sourceRoot": "host/src",
+  "implicitDependencies": ["products", "cart"],
   "tags": [],
   "targets": {
     "build": {

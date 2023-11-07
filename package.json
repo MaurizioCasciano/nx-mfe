@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nx serve host --open --devRemotes=products,cart"
+    "start:dev": "nx serve host --open --devRemotes=products,cart",
+    "build:host": "nx build host",
+    "build:products": "nx build products",
+    "build:cart": "nx build cart"
   },
   "private": true,
   "devDependencies": {

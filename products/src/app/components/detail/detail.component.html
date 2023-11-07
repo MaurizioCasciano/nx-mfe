@@ -1,1 +1,5 @@
 <p>detail works!</p>
+<p>BaseHref = {{baseHref}}</p>
+
+<button [routerLink]="['/']">Root</button>
+<button [routerLink]="['/' + baseHref]">Root + baseHref</button>

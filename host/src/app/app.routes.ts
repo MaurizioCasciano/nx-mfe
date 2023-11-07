@@ -1,4 +1,3 @@
-import { NxWelcomeComponent } from './nx-welcome.component';
 import { Route } from '@angular/router';
 
 export const appRoutes: Route[] = [
@@ -11,8 +10,8 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('products/Module').then((m) => m.RemoteEntryModule),
   },
-  {
-    path: '',
-    component: NxWelcomeComponent,
-  },
+  // {
+  //   path: '',
+  //   component: NxWelcomeComponent,
+  // },
 ];

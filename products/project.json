@@ -10,6 +10,7 @@
       "executor": "@nx/angular:webpack-browser",
       "outputs": ["{options.outputPath}"],
       "options": {
+        "baseHref": "products",
         "outputPath": "dist/products",
         "index": "products/src/index.html",
         "main": "products/src/main.ts",

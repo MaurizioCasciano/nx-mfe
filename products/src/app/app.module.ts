@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { DetailComponent } from './components/detail/detail.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DetailComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(

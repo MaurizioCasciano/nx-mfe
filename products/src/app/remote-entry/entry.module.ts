@@ -10,7 +10,7 @@ import {DetailComponent} from "../components/detail/detail.component";
 @NgModule({
   declarations: [RemoteEntryComponent, DetailComponent],
   imports: [CommonModule, RouterModule.forChild(remoteRoutes)],
-  providers: [provideHttpClient(), {provide: APP_BASE_HREF, useValue: "products"}],
+  providers: [provideHttpClient(), {provide: APP_BASE_HREF, useValue: "/products"}],
 })
 export class RemoteEntryModule {
 }

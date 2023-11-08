@@ -11,7 +11,7 @@
       "executor": "@nx/angular:webpack-browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "baseHref": "host",
+        "baseHref": "/host",
         "outputPath": "dist/host",
         "index": "host/src/index.html",
         "main": "host/src/main.ts",

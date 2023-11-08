@@ -10,7 +10,7 @@
       "executor": "@nx/angular:webpack-browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "baseHref": "cart",
+        "baseHref": "/cart",
         "outputPath": "dist/cart",
         "index": "cart/src/index.html",
         "main": "cart/src/main.ts",
